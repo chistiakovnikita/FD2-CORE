@@ -1,6 +1,9 @@
 import "./main.scss";
 
-const add123 = (a, b) => a + b;
+import './components/Button/Button';
 
-const res = add123(222, 3);
-console.log("Helloasda");
+const root = document.querySelector('#root');
+
+
+
+root.innerHTML = `<my-button></my-button>`
